@@ -43,6 +43,6 @@ let biodata = {
        
 }
 
-console.log(typeof biodata.isMarried)
+console.log(biodata)
     
    
