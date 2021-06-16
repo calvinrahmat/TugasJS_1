@@ -14,10 +14,10 @@ let data = {
     website: "hildegard.org",
     }
     //Ubahlah data  tersebut menggunakan spread operator 
-    let newName = {...data}
+    let newName = {...data, hobby:"futsal"}
     newName.name = "calvin rahmat"
     newName.email = "calvin.rahmat@gmail.com"
-    newName = {...data, hobby:"futsal"}
+
 
     console.log(newName)
 
