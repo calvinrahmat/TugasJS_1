@@ -14,12 +14,12 @@ let data = {
     website: "hildegard.org",
     }
     //Ubahlah data  tersebut menggunakan spread operator 
-    let newName = {...data, hobby:"futsal"}
-    newName.name = "calvin rahmat"
-    newName.email = "calvin.rahmat@gmail.com"
+    let newData = {...data, hobby:"futsal"}
+    newData.name = "calvin rahmat"
+    newData.email = "calvin.rahmat@gmail.com"
 
 
-    console.log(newName)
+    console.log(newData)
 
     //Ambilah data “street dan city” tersebut menggunakan destructuring
     let {street,city}=data.address
