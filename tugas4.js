@@ -13,7 +13,7 @@ let data = {
     phone: "1-770-736-8031 x56442",
     website: "hildegard.org",
     }
-
+    //Ubahlah data  tersebut menggunakan spread operator 
     let newName = {...data}
     newName.name = "calvin rahmat"
     newName.email = "calvin.rahmat@gmail.com"
@@ -21,9 +21,7 @@ let data = {
 
     console.log(newName)
 
-
-    //console.log(...data.name)
-
+    //Ambilah data “street dan city” tersebut menggunakan destructuring
     let {street,city}=data.address
     console.log(street + city)
 
