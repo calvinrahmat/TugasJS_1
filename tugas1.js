@@ -2,7 +2,7 @@ let biodata = {
     name : "Calvin Rahmat",
     age: 18,
     hobbies: ['gaming', 'reading', 'futsal'],
-    isMarried: true,
+    isMarried: false,
     schoolList : [
         {
             name: 'SDN Pengadilan 3 Bogor',
